@@ -44,13 +44,17 @@
 
     #user-label{
         position:absolute;
+        border: 1px solid red;
         top:30px;
-        left:-45px;
+        background-color:red;
+        left:-50px;
         }
         #computer-label{
             position:absolute;
+            border:1px solid red;
             top:30px;
-            right:-45px;
+            background-color:red;
+            right:-60px;
             }
 
             .result > p{
@@ -83,7 +87,7 @@
                 font-size:20px;
                 margin-top:20px;
             }
-
+           
             
 
 

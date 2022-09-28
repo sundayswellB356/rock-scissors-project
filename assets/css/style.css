@@ -23,6 +23,7 @@
 
     .scoreboard{
         border: 3px solid white;
+        text-align:center;
         width:200px;
         margin:20px auto;
         color:white;
@@ -44,16 +45,17 @@
     #user-label{
         position:absolute;
         top:30px;
-        left:-25px;
+        left:-45px;
         }
         #computer-label{
             position:absolute;
             top:30px;
-            right:-30px;
+            right:-45px;
             }
 
             .result > p{
                 text-align:center;
+                color:white;
                 font-family:Asap,sans-serif;
                 font-weight:bold;
             }
@@ -62,8 +64,27 @@
                 text-align:center;
                 margin-top:50px;
             }
-
+            .choice{
+                display:inline-block;
+                padding:10px;
+                margin:0 20px;
+                transition:all 0.3s ease;
             }
+            .choice:hover{
+                cursor:pointer;
+                background:#9a988F;
+            }
+
+            #action-message{
+                text-align:center;
+                color:white;
+                font-family:Asap, sans-serif;
+                font-weight:bold;
+                font-size:20px;
+                margin-top:20px;
+            }
+
+            
 
 
 

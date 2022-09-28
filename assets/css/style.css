@@ -15,7 +15,8 @@ header{
 }
 
 header > h1{
-    color:#25272E;
+    background-color:#25272E;
+    color:white;
     text-align:center;
     font-family:Asap,sans-serif;
 }
@@ -49,6 +50,39 @@ header > h1{
             top:30px;
             right:-30px;
         }
+
+        .result > p{
+            text-align:center;
+            font-family:Asap, sans-serif;
+            font-weight:bold;
+        }
+
+
+        .choices{
+            text-align:center;
+            margin-top:50px;
+            }
+
+            .choice{
+                display:inline-block;
+                padding:10px;
+                margin: 0 20px;
+                transition:all 0.3s ease;
+            }
+
+            .choice:hover{
+                cursor:pointer;
+                background:#25272E;
+            }
+
+            #action-message{
+                text-align:center;
+                color:white;
+                font-family:Asap sans-serif;
+                font-weight:bold;
+                font-size:20px;
+                margin-top:20px;
+            }
 
     
 

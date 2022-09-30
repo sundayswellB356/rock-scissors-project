@@ -18,3 +18,6 @@ rock_div.addEventListener("click".function()){
 paper_div.addEventListener("click".function()){
     console.log("hey you clicked on paper");
 }
+scissors_div.addEventListener("click".function()){
+    console.log("hey you clicked on scissors");
+}
